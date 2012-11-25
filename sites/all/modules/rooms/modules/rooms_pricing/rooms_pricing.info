@@ -1,0 +1,23 @@
+name = Rooms Pricing
+description = Manages pricing information for Rooms
+core = 7.x
+version = 1.x-dev
+
+package = Rooms
+
+files[] = includes/rooms_pricing.unit_pricing_calendar.inc
+files[] = includes/rooms_pricing.pricing_event.inc
+
+
+dependencies[] = rooms_unit
+dependencies[] = rooms_availability
+dependencies[] = commerce
+
+files[] = test/rooms_pricing_test.test
+
+; Information added by drupal.org packaging script on 2012-06-07
+version = "7.x-1.0-beta4+4-dev"
+core = "7.x"
+project = "rooms"
+datestamp = "1339072383"
+
